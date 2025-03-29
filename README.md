@@ -5,7 +5,7 @@
 ---
 
 ## 📸 Vista Previa  
-![Vista Previa](https://link-a-tu-imagen.gif)  
+![Vista Previa](./img/h.png)  
 
 ---
 
@@ -19,6 +19,7 @@
 ## 📦 Instalación  
 ```bash
 sudo apt install node-js-beautify
+sudo apt install moreutils -y
 
 git clone https://github.com/SwodLore/Search-machines-of-s4vitar.git
 cd Search-machines-of-s4vitar
@@ -35,7 +36,7 @@ Esto te muestra la ayuda del script.
 ./htbmachines.sh -h
 ```
 📷 **Ejemplo:**  
-![Ayuda](https://link-a-tu-imagen-ayuda.png)  
+![Ayuda](./img/h.png)  
 
 ---
 
@@ -45,7 +46,7 @@ Esto actualiza la base de datos de máquinas de HTB mediante una peticion GET a 
 ./htbmachines.sh -u
 ```
 📷 **Ejemplo:**  
-![Actualizar](https://link-a-tu-imagen-actualizar.png)  
+![Actualizar](./img/u.png)  
 
 ---
 
@@ -55,7 +56,7 @@ Esto busca por nombre en la base de datos de máquinas de HTB.
 ./htbmachines.sh -m "nombre_maquina"
 ```
 📷 **Ejemplo:**  
-![Buscar por Nombre](https://link-a-tu-imagen-nombre.png)  
+![Buscar por Nombre](./img/m.png)  
 
 ---
 
@@ -65,17 +66,17 @@ Esto busca por sistema operativo en la base de datos de máquinas de HTB.
 ./htbmachines.sh -o "Windows"
 ```
 📷 **Ejemplo:**  
-![Buscar por OS](https://link-a-tu-imagen-os.png)  
+![Buscar por OS](./img/o.png)  
 
 ---
 
 ### 🔢 Buscar por dificultad 
 Esto busca por dificultad en la base de datos de máquinas de HTB.
 ```bash
-./htbmachines.sh -d "Dificil"
+./htbmachines.sh -d "Difícil"
 ```
 📷 **Ejemplo:**  
-![Buscar por Dificultad](https://link-a-tu-imagen-dificultad.png)  
+![Buscar por Dificultad](./img/d.png)  
 
 ---
 
@@ -85,7 +86,27 @@ Esto busca por habilidades en la base de datos de máquinas de HTB.
 ./htbmachines.sh -s "SQL Injection"
 ```
 📷 **Ejemplo:**  
-![Buscar por Skills](https://link-a-tu-imagen-skills.png)  
+![Buscar por Skills](./img/s.png)  
+
+---
+
+### 🔍 Buscar por Ip  
+Esto busca por ip de la base de datos de máquinas de HTB.
+```bash
+./htbmachines.sh -i "10.10.10.124"
+```
+📷 **Ejemplo:**  
+![Buscar por Nombre](./img/i.png)  
+
+---
+
+### 🎯 Buscar por por nombre (Link de Youtube)  
+Esto busca la resolución de la máquina por nombre en la base de datos de máquinas de HTB.
+```bash
+./htbmachines.sh -y "GoodGames"
+```
+📷 **Ejemplo:**  
+![Buscar por Skills](./img/y.png)  
 
 ---
 
@@ -97,4 +118,3 @@ Esto busca por habilidades en la base de datos de máquinas de HTB.
 5. Crea un Pull Request 🚀  
 
 ---
-
