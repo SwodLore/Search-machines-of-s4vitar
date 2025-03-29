@@ -19,10 +19,17 @@
 ## 📦 Instalación  
 ```bash
 sudo apt install node-js-beautify
+```
+```bash
 sudo apt install moreutils -y
-
+```
+```bash
 git clone https://github.com/SwodLore/Search-machines-of-s4vitar.git
+```
+```bash
 cd Search-machines-of-s4vitar
+```
+```bash
 chmod +x htbmachines.sh
 ```
 
